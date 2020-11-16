@@ -12,7 +12,7 @@ had the idea: Would it be nice if I could search all the alternative sites with 
 JavaScript open multiple browser tabs, passing the search queries? So, I made this.
 
 This website requires a browser that is configured to support script and opening multiple tabs (Firefox recommended).
-For equerries, feedback or suggestions, email me at: razza1083@live.co.uk
+For equerries, feedback or suggestions, email me at: daezohn@protonmail.com
 
 I am treating this as an open source project and I welcome any contributions.
 My suggestion for contributors are to create new branches for any significant changes that they propose.
