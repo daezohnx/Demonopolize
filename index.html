@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <!-- saved from url=(0193)https://abiestorage.blob.core.windows.net/statichtml/demonopolize.html -->
 <!DOCTYPE html PUBLIC "" "">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -143,7 +143,7 @@
             </p>
             <p>
                 <img src="Bitcoin.png" alt="BTC" />
-                1BwqzqWKi1TMh3rsJ9rwiVB8h3PyNEqa3
+                3A3nPfGkUd11wJusNeAc8U4ndS1bUtV1VF
             </p>
             <p>
                 <img style="width: 132px; height: 132px;" alt="" src="btcqr.png"><i><span style='font-family: "Times New Roman",serif; font-size: 12pt;'><o:p></o:p></span></i>
@@ -172,7 +172,11 @@
             PrepSearch();
             // Web search (screw Google)
             NewTab('https://duckduckgo.com/?q=');
-            NewTab('https://www.qwant.com/?q=');
+            NewTab('https://www.ecosia.org/search?q=');
+			NewTab('https://everipedia.org/wiki/lang_en/');
+			NewTab('https://blockscan.com/search?q=');
+			NewTab('https://desearch.com/');
+			//NewTab('https://www.qwant.com/?q=');
             //NewTab('https://www.searx.me/');
             //NewTab('https://search.wikileaks.org/?q=');
             //NewTab('https://www.startpage.com/do/search');
@@ -182,8 +186,8 @@
             PrepSearch();
             // Social search (screw Facebook)
             NewTab('https://www.minds.com/search;q=');
-            NewTab('https://gab.ai/search/');
-            //NewTab('https://steemit.com/'); // Partly blockchian decentralized
+            NewTab('https://gab.com/search?q=');
+            NewTab('https://steemit.com/search?q='); // Partly blockchian decentralized
             //NewTab('http://www.synereo.com/'); //Full blockchain  decentralized
             //NewTab('http://www.4chan.org/');
             NewTab('https://www.reddit.com/search?q=');
@@ -192,17 +196,20 @@
         function SearchVideo() {
             PrepSearch();
             // Video search (screw Youtube)
-            window.open('https://www.bitchute.com/search/?q=' + searchText + '&sort=date_created+desc', '_newtab' + idx++);
+			NewTab('https://bittube.tv/explore/explore-videos?term=');
+			NewTab('https://lbry.tv/$/search?q=');
+            window.open('https://www.bitchute.com/search/?query=' + searchText + '&kind=video' + idx++);
             NewTab('https://dtube.video/#!/s/'); // Partly blockchian decentralized
             NewTab('http://www.dailymotion.com/search/');
-            NewTab('https://vid.me/search?q=');
+            //NewTab('https://vid.me/search?q=');
             NewTab('https://www.patreon.com/search?q=');
             NewTab('https://vimeo.com/search?q=');
+			NewTab('https://dlive.tv/');
             NewTab('https://www.liveleak.com/browse?q=');
             //NewTab('http://zippcast.com/?s='); //Not working
             NewTab('http://www.metacafe.com/videos_about/');
             //NewTab('https://go.twitch.tv/'); //Not working
-            NewTab('http://www.mefeedia.com/search/');
+            //NewTab('http://www.mefeedia.com/search/');
         }
 
         function SearchImages() {
@@ -217,13 +224,16 @@
             // Shopping search (screw Amazon)
             //NewTab('https://www.openbazaar.org/');  //Full blockchain  decentralized
             NewTab('https://www.overstock.com/search?keywords='); //Accepts bitcoin
+			//https://openbazaar.org/
         }
 
         function CryptoCharts() {
             PrepSearch();
             // Search crypto price charts
-            NewTab('https://www.cryptocompare.com/coins/');
-            NewTab('https://coinmarketcap.com/currencies/');
+            NewTab('https://www.coingecko.com/en/coins/');
+			NewTab('https://www.cryptocompare.com/coins/');
+            //NewTab('https://coinmarketcap.com/currencies/');
+			
         }
 
 
