@@ -196,8 +196,11 @@
         function SearchVideo() {
             PrepSearch();
             // Video search (screw Youtube)
-			NewTab('https://bittube.tv/explore/explore-videos?term=');
-			NewTab('https://lbry.tv/$/search?q=');
+            NewTab('https://bittube.tv/explore/explore-videos?term=');
+	    NewTab('https://lbry.tv/$/search?q=');
+	    NewTab('https://odysee.com/$/search?q=');
+	    NewTab('https://peer.tube/search?search=');
+            NewTab('https://brandnewtube.com/search?keyword=');
             window.open('https://www.bitchute.com/search/?query=' + searchText + '&kind=video' + idx++);
             NewTab('https://dtube.video/#!/s/'); // Partly blockchian decentralized
             NewTab('http://www.dailymotion.com/search/');
